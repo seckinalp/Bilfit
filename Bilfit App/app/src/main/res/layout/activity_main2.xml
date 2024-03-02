@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="30sp">
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="167dp"
+        android:layout_height="274dp"
+        app:srcCompat="@drawable/one" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_extrabold"
+        android:text="Register to BILFIT"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/kayit_ol_editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mail"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textAlignment="center">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/kayit_ol_editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textAlignment="center">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/kayit_ol_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#DDF2FF"
+        android:fontFamily="@font/inter_extrabold"
+        android:onClick="kayitOl"
+        android:text="Register"
+        android:textColor="#000000"
+        android:textColorHint="@color/white"
+        android:textSize="20sp">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/already_in"
+        android:layout_width="241dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="70dp"
+        android:fontFamily="@font/inter_extrabold"
+        android:hint="Hesabınız Zaten Varsa Giriş Yapın!"
+        android:inputType="textEmailAddress"
+        android:minHeight="24dp"
+        android:text="Already Have Account? Login!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"></TextView>
+
+
+</LinearLayout>

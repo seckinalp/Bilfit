@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="30sp"
+    tools:context=".NeedHelp">
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="290dp"
+        android:layout_height="192dp"
+        app:srcCompat="@drawable/three" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_extrabold"
+        android:text="Need Help? Contact!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/email_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/inter_medium"
+        android:inputType="text"
+        android:minHeight="24dp"
+        android:text="Email:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/email_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Mail"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"></EditText>
+
+    <TextView
+        android:id="@+id/message_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/inter_medium"
+        android:inputType="text"
+        android:minHeight="24dp"
+        android:text="Message:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/message_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Message"
+        android:inputType="text"
+        android:minHeight="240dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"></EditText>
+
+    <Button
+        android:id="@+id/change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#DDF2FF"
+        android:fontFamily="@font/inter_extrabold"
+        android:onClick="send"
+        android:text="Send!"
+        android:textColor="#000000"
+        android:textSize="20sp"></Button>
+
+
+</LinearLayout>

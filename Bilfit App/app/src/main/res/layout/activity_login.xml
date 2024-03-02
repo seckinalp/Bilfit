@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="30sp">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="249dp"
+        android:layout_height="324dp"
+        app:srcCompat="@drawable/two" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_extrabold"
+        android:text="Welcome to BILFIT!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login your account"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/giris_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mail Account"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textAlignment="center">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/giris_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textAlignment="center">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/giris_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#DDF2FF"
+        android:fontFamily="@font/inter_extrabold"
+        android:onClick="girisYap"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold">
+
+    </Button>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/need_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/inter_extrabold"
+            android:inputType="text"
+            android:minHeight="24dp"
+            android:text="Need Help?"
+            android:textAlignment="center"
+            android:textColor="#000000"></TextView>
+
+        <TextView
+            android:id="@+id/new_forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/inter_extrabold"
+            android:inputType="text"
+            android:minHeight="24dp"
+            android:text="Forget Password?"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/toRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/inter_extrabold"
+            android:inputType="text"
+            android:minHeight="24dp"
+            android:text="Create Account"
+            android:textAlignment="center"
+            android:textColor="#FF3D00"
+            android:textStyle="bold"></TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
