@@ -1,2 +1,3 @@
 # Bilfit
-This Java-based mobile fitness app, designed in Android Studio with Firebase integration, offers personalized workout programs, tracking features, and motivational content to support users in achieving their fitness goals efficiently.
+
+`What is the Bilfit? `: This mobile fitness app, developed using Java and Android Studio, integrates Firebase for user management. It guides users through creating personalized workout programs based on their body data. Features include account creation, password recovery, smart program generation, exercise tracking, and body data management. Users can start exercises, track progress with a pie chart, and update personal metrics. Additionally, motivational quotes and detailed exercise descriptions enhance the user experience. Designed for both gym and home workouts, it encourages users to stay active and monitor their fitness journey.
