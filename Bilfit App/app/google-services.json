@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "832974504169",
+    "project_id": "bilfitproject",
+    "storage_bucket": "bilfitproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832974504169:android:2d37492ddb603d80c03078",
+        "android_client_info": {
+          "package_name": "com.keremkarza.bilfitprojectfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832974504169-g77827jq0q6rplv8lstjc1kjr87e4hsk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRR9CrkC5Z1wbX7PW8V_Rego87UP8fh_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832974504169-g77827jq0q6rplv8lstjc1kjr87e4hsk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
