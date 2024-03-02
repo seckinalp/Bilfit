@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">BILFIT</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="androidSwitch"> </string>
+    <string name="androidSwitch1">  Gym</string>
+    <string name="androidSwitch2">home</string>
+    <string name="text1">gym</string>
+    <string name="welcome">Welcome to the BILFIT!</string>
+    <string name="own">Create Your Own Program</string>
+    <string name="own2">You can choose exercises as you wish.</string>
+    <string name="smart">  </string>
+    <string name="smart3">Create Your Smart Program </string>
+    <string name="smart2">We will suggest you exercises according to your body</string>
+    <string name="see">See Your Program</string>
+    <string name="occupancy">Gym Occupancy Rate</string>
+    <string name="motivaton">It is never late !</string>
+    <string name="start">START</string>
+    <string name="currentP">Current Program</string>
+    <string name="ex1">Databaseden alıncak 3 x 12</string>
+    <string name="ex2">Databaseden alıncak 3 x 8</string>
+    <string name="ex3">Databaseden alıncak 2 x 7</string>
+    <string name="ex4">Databaseden alıncak 3 min</string>
+    <string name="ex5">Databaseden alıncak   1 x 7</string>
+    <string name="informative">Informative Section</string>
+    <string name="tracking">Tracking Section</string>
+    <string name="workout">Workout Information</string>
+    <string name="nutrition">Nutrition Information</string>
+    <string name="supplement">Supplement Information</string>
+    <string name="workout1">Workout</string>
+    <string name="nutrition1">Nutrition</string>
+    <string name="supplement1">Supplement</string>
+    <string name="motivation">Motivation Section</string>
+    <string name="update">Update Your Values</string>
+
+    <string name="profile">Profile Page</string>
+    <string name="neverstop">Never Stop Learning!</string>
+    <string name="weight">0</string>
+    <string name="height">0</string>
+    <string name="hip">0</string>
+    <string name="neck">0</string>
+    <string name="chest">0</string>
+    <string name="waist">0</string>
+    <string name="hintweight">0</string>
+    <string name="hintheight">0</string>
+    <string name="hinthip">0</string>
+    <string name="hintneck">0</string>
+    <string name="hintchest">0</string>
+    <string name="hintwaist">0</string>
+    <string name="dormitory">Dormitory Occupancy Rate</string>,
+    <string name="main">Main Occupancy Rate</string>
+    <string name="dormitory1">%</string>,
+    <string name="main1">%</string>
+    <string name="trackingchart">aa</string>
+    <string name="workoutname">workoutname</string>
+    <string name="workoutdescription">workoutdescription</string>
+    <string name="workoutset">1</string>
+    <string name="workoutrep">12</string>
+    <string name="workoutcat">0</string>
+
+
+</resources>
